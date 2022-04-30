@@ -10919,6 +10919,20 @@ body {
   font-weight: 300;
 }
 
+main {
+  padding-top: 54.5px;
+}
+
+@media (min-width: 576px) {
+  main {
+    padding-top: 57px;
+  }
+}
+@media (min-width: 992px) {
+  main {
+    padding-top: 77px;
+  }
+}
 header .navbar-toggler span {
   display: block;
   width: 30px;
@@ -10946,5 +10960,14 @@ header .navbar-nav a {
   header .navbar-nav li {
     margin-left: 51px;
   }
+}
+.lead-page-section {
+  padding: 140px 0;
+  background-position: right top;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+.lead-page-section .lead-section-content {
+  background: rgba(255, 255, 255, 0.8);
 }
 /*# sourceMappingURL=theme.css.map */
