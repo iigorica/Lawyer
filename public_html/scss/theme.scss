@@ -1,12 +1,15 @@
-@import "theme-partials/_override-bootstrap.scss";
-@import "bootstrap.scss";
+@import "./theme-partials/_override-bootstrap.scss";
+@import "./bootstrap.scss";
 
 
 
-@import "theme-partials/_fonts.scss";
-@import "theme-partials/_animations.scss";
+@import "./theme-partials/_fonts.scss";
+@import "./theme-partials/_animations.scss";
 
-@import "theme-partials/_base.scss";
-@import "theme-partials/_header.scss";
+@import "./theme-partials/_base.scss";
+@import "./theme-partials/_header.scss";
 @import "./theme-partials/_lead-page-section.scss";
+@import "./theme-partials/_service.scss";
+@import "./theme-partials/_team.scss";
+
 
