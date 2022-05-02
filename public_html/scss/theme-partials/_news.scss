@@ -1,0 +1,48 @@
+
+
+.news-section{
+    padding: 50px 0;
+
+    .news-item{
+        h2{
+            a{
+                color: $body-color;
+                line-height: 6rem;
+                display: block;
+            }
+        }
+
+        .news-item-description{
+            line-height: 2.5rem;
+            height: 3*2.5rem;
+            overflow: hidden;
+        }
+
+        .read-more{
+            font-weight: $font-weight-medium;
+        }
+
+        .news-item-img{
+            overflow: hidden;
+            img{
+                transition: 0.5s linear;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+}
+
+@media(min-width:992px){
+    .news-section{
+        padding: 114px 0;
+
+        .news-item{
+            margin-bottom: 11.4rem !important;
+            h2{
+                line-height: 4.6rem;
+            }
+        }
+    }
+}
